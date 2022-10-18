@@ -1,1 +1,7 @@
-Document.write(3+4);
+var Family = al busaidy", Dad = "Mussa", Mom = "Naushad", //defining a multiple variables
+    daughter= "Nasra", Son = "Mudrick"
+document.write(Dad);
+var White = "I have the white.";
+var white = white.frontcolor("white");      //using the froncolor method
+document.write(white);
+document.write(3+4).              //defining an expression
