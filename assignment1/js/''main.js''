@@ -1,3 +1,1 @@
-var white = "I have the white.";
-var white = white.foncolor("white");
-document.write(white);
+Document.write(3+4);
