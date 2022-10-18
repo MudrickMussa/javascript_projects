@@ -1,3 +1,3 @@
-var Family = "The Albusaidy",Dad = "Mussa",Mom = "Naushad",
-    Daughter = "Nasra", Son = "Mudrick";
-document.write(Dad);
+var white = "I have the white.";
+var white = white.foncolor("white");
+document.write(white);
