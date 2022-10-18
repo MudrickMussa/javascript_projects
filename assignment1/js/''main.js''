@@ -1,1 +1,17 @@
-document.write(4);
+ <html>
+  <head>
+     <script>
+	    fuction display() {
+			var a = "simple";
+			var b = "learing";
+			alert(a +" easy "+ b);
+			
+		{
+	  </script>
+  </head>
+  <body>
+	 <input type="button" value="click
+		 me!" onClick="display();">
+  </body>
+</html>
+		
