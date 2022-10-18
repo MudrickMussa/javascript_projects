@@ -1,17 +1,3 @@
- <html>
-  <head>
-     <script>
-	    fuction display() {
-			var a = "simple";
-			var b = "learing";
-			alert(a +" easy "+ b);
-			
-		{
-	  </script>
-  </head>
-  <body>
-	 <input type="button" value="click
-		 me!" onClick="display();">
-  </body>
-</html>
+document.write("Lisa told Bart, \"knock it off, Bart! or i'll tell dad!\"<br>
+\"Eat my shorts!\"Bart respond.");
 		
