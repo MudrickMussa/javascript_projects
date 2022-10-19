@@ -1,11 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-</head>
+<html>
+    <head>
+        <title>Dictionary in Javascript</title>
+    </head>
+    <body style="text-align: center;">
+        <h1 style="color: green;">
+            GeeksforGeeks
+        </h1>
+        <p>
+            var dict = { <br />
+            "geek" : 1 , <br />
+            "for" : "2", <br />
+            "geeks" : 3.5 <br />
+            }; <br />
+        </p>
   
-     <p>HELLO, world!</p>
-	 <script> src= js/main.js,></script>
-	 <p id="Dictionary" onclick="">Click me!</p>
-	 </script>
-	 </body>
+  
+        <button onClick="fun()">
+            Add new Key-Value Pairs
+        </button>
+  
+        <p id="demo"></p>
+  
+  
+        <!-- Script to create dictionary 
+                and add key-value pairs -->
+        <script>
+            function fun() {
+                var dict = {
+                    geek: 1,
+                    for: "2",
+                    geeks: 3.5,
+                };
+  
+                dict.new_geeks = "new_value";
+                dict["another_new_geeks"] = 
+                "another_value";
+  
+                var to_show = "var dict = { <br>";
+  
+                for (var key in dict) {
+                    to_show += '"' + key + '" : ' 
+                    + dict[key] + "<br>";
+                }
+  
+                to_show += " }; <br>";
+  
+                document.getElementById("demo")
+                .innerHTML = to_show;
+            }
+        </script>
+    </body>
+</html>                    
