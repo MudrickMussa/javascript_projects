@@ -1,6 +1,7 @@
-function modulus_operator() {
-    var simple_Math = 25 & 6;
-	document.getElementById("Math").innerHTML = "when you devided 25 by 6 you have a reminder of: * + simple_Math;
+function negation_Operstor() {
+    var x = 5;
+	document.getElementById("Math").innerHTML = -x;
 	
-	}
-	
+}
+
+The out put of this code would be -5.
