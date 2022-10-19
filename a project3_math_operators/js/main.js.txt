@@ -1,13 +1,1 @@
-var x = 4;
-x++;
-documenr.write(x);
-
-This would increment from 4 to 5.
-
-
-
-var x = 4.25;
-x--;
-document.write(x);
-
-This would show up as "3.25".
+window.alert(Math.random() * 90);
