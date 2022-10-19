@@ -1,5 +1,6 @@
-function more_Math() {
-    var simple_Math = (1+1) * 5 / 2-5;
-	document.getElementById("Math").innerHTML= "1 plus 1, multiplied by 5,
-	divided in half and then substracted by 5 equals * + simple_Math
+function modulus_operator() {
+    var simple_Math = 25 & 6;
+	document.getElementById("Math").innerHTML = "when you devided 25 by 6 you have a reminder of: * + simple_Math;
+	
+	}
 	
