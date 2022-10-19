@@ -1,5 +1,13 @@
-function subtraction_Function() {
-    var Subtraction = 4 - 2;
-	document.getElemenById("Math") .innerHTML = "4-2= " + substraction;
+function multiplication() {
+    var simple_Math = 8 * 0;
+	document.getElementById("Math").innerHTML = "8 * 0" = " + simple_Math;
 	
-	} 
+	}
+	
+	
+	function division() {
+	    var simple_Math = 22/ 2;
+		document.getElementById("Math") .innerHTML = "22 / 2 = " + simple_Math;
+		
+		}
+		
