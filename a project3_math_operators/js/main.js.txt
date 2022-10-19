@@ -1,0 +1,5 @@
+function subtraction_Function() {
+    var Subtraction = 4 - 2;
+	document.getElemenById("Math") .innerHTML = "4-2= " + substraction;
+	
+	} 
