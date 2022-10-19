@@ -1,13 +1,5 @@
-function multiplication() {
-    var simple_Math = 8 * 0;
-	document.getElementById("Math").innerHTML = "8 * 0" = " + simple_Math;
+function more_Math() {
+    var simple_Math = (1+1) * 5 / 2-5;
+	document.getElementById("Math").innerHTML= "1 plus 1, multiplied by 5,
+	divided in half and then substracted by 5 equals * + simple_Math
 	
-	}
-	
-	
-	function division() {
-	    var simple_Math = 22/ 2;
-		document.getElementById("Math") .innerHTML = "22 / 2 = " + simple_Math;
-		
-		}
-		
