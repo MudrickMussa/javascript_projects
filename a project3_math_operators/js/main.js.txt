@@ -1,7 +1,13 @@
-function negation_Operstor() {
-    var x = 5;
-	document.getElementById("Math").innerHTML = -x;
-	
-}
+var x = 4;
+x++;
+documenr.write(x);
 
-The out put of this code would be -5.
+This would increment from 4 to 5.
+
+
+
+var x = 4.25;
+x--;
+document.write(x);
+
+This would show up as "3.25".
