@@ -1,8 +1,12 @@
-document.write(10 == 10);
+X = 10;
+Y = 10;
+document.write(X === Y);
 
-for false we would write:
+This is return true. To retun false.
 
-document.write(3 == 11);
+X = 82;
+Y = 82";
+document.write(X === Y);
 
 
 
