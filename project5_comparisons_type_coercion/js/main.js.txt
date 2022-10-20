@@ -1,12 +1,13 @@
-X = 10;
-Y = 10;
-document.write(X === Y);
+document.write(4 > 2 && 5 > 4);
 
-This is return true. To retun false.
+document.write(4 > 5 && 5 > 4);
 
-X = 82;
-Y = 82";
-document.write(X === Y);
+The || (or) operators.
+
+document.write(5 > 10 || 10 > 4);
+
+
+docoment.write(5 > 10 || 10 > 20);
 
 
 
