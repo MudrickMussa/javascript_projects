@@ -1,4 +1,8 @@
-document.write("10"+10) // ""1010"
+document.write(10 == 10);
+
+for false we would write:
+
+document.write(3 == 11);
 
 
 
