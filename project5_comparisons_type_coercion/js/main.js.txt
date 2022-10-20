@@ -1,3 +1,10 @@
-document.write(2E310);
+docmuent.write(5>3);
 
-document.write(-3E310);
+The output is true because 5 is grater than 3.
+ 
+ 
+To output false we would write
+
+document.write(5<3);
+
+
