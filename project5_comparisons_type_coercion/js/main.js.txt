@@ -1,13 +1,15 @@
-document.write(4 > 2 && 5 > 4);
-
-document.write(4 > 5 && 5 > 4);
-
-The || (or) operators.
-
-document.write(5 > 10 || 10 > 4);
+function not_Function() {
+    document.getElementById("Not).innerHTML = !(30 > 20);
+}
 
 
-docoment.write(5 > 10 || 10 > 20);
+This would be "False"
+
+function not_Function() {
+    document.getElementById("Not").innerHTML = !(5 > 10);
+}
+
+This would be "True".
 
 
 
