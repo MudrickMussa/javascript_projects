@@ -1,0 +1,4 @@
+function Ride_Function() {
+    var Height, can_ride;
+	Height = document.getElementById("Ride").innerHTML= Can_ride + " to ride.";
+} 
