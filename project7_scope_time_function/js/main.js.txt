@@ -1,13 +1,6 @@
-var X = 10;
-function Add_numbers_1 () {
-    document.write(20 + x + "<br>");
-}
-function Add_numbers_2()  {
-    document.write(x + 100);
+function get_Date () {
+    if new Date().getHours <  18) {
+	document.getElementById("Greetongs").innerHTML = "How are you";
+	}
 	
-}
-Add_numbers_1();
-Add_numbers_2();
-
-
-
+	}
