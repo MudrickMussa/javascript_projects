@@ -1,6 +1,22 @@
-function get_Date () {
-    if new Date().getHours <  18) {
-	document.getElementById("Greetongs").innerHTML = "How are you";
+x = "awesome"   // variable 
+
+def myfunc():
+  print("Python is " + x)
+
+myfunc() 
+
+
+function get_Date() {    // if statements
+    if (new Date().getHours() < 10 {
+	document.getElementById("Greeting").innerHTML = "How are you"
 	}
 	
+} 
+
+function Time_function() {
+    var Time = new Date().getHours();
+	var REply;
+	if (Time < 5 = Time > 0) {
+	    Reply = "it is morning time!";
 	}
+	
