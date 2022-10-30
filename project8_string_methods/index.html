@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-</head>
-  
-     <p id="Concatenate"></p>
-	 <button onclick="full_Sentences()">Click here for a sentence.</button>
-	 <script> src= js/main.js,></script>
-	 </script>
-	 </body>
+<html>
+<body>
+
+<h1>JavaScript Strings</h1>
+<h2>The concat() Method</h2>
+
+<p>The concat() method joins two or more strings.</p>
+
+<p>Join "sea" and "food":</p>
+
+<p id="demo"></p>
+
+<script>
+let text1 = "sea";
+let text2 = "food";
+let result = text1.concat(text2);
+
+document.getElementById("demo").innerHTML = result;
+</script>
+
+</body>
+
+</html>
